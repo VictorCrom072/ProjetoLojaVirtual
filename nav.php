@@ -19,11 +19,11 @@
         <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categorias<span class="caret"></span></a>
         <ul class="dropdown-menu">
-            <li><a href="#">Play Station</a></li>
-            <li><a href="#">Xbox</a></li>
-            <li><a href="#">Switch</a></li>
-            <li><a href="#">PC</a></li>
-            <li><a href="#">Mobile</a></li>
+            <li><a href="#">Categoria 1</a></li>
+            <li><a href="#">Categoria 2</a></li>
+            <li><a href="#">Categoria 3</a></li>
+            <li><a href="#">Categoria 4</a></li>
+            <li><a href="#">Categoria 5</a></li>
         </ul>
         </li>
     </ul>
