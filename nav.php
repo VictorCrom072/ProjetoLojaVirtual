@@ -19,11 +19,11 @@
         <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categorias<span class="caret"></span></a>
         <ul class="dropdown-menu">
-            <li><a href="#">Categoria 1</a></li>
-            <li><a href="#">Categoria 2</a></li>
-            <li><a href="#">Categoria 3</a></li>
-            <li><a href="#">Categoria 4</a></li>
-            <li><a href="#">Categoria 5</a></li>
+            <li><a href="#">Design</a></li>
+            <li><a href="#">Infraestrutura</a></li>
+            <li><a href="#">Dados</a></li>
+            <li><a href="#">Front-end</a></li>
+            <li><a href="#">Mobile</a></li>
         </ul>
         </li>
     </ul>
