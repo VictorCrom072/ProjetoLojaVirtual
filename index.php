@@ -14,5 +14,29 @@
 <body>
     <?php include 'nav.php' ?>
     <?php include 'cabecalho.html' ?>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-sm-3">
+                <img src="https://placehold.it/450x320" class="img-responsive" style="width: 100%;" alt="">
+                <div><h1>(Nome do Produto)</h1></div>
+                <div><h4>(Preço do Produto)</h4></div>
+            </div>
+            <div class="col-sm-3">
+                <img src="https://placehold.it/450x320" class="img-responsive" style="width: 100%;" alt="">
+                <div><h1>(Nome do Produto)</h1></div>
+                <div><h4>(Preço do Produto)</h4></div>
+            </div>
+            <div class="col-sm-3">
+                <img src="https://placehold.it/450x320" class="img-responsive" style="width: 100%;" alt="">
+                <div><h1>(Nome do Produto)</h1></div>
+                <div><h4>(Preço do Produto)</h4></div>
+            </div>
+            <div class="col-sm-3">
+                <img src="https://placehold.it/450x320" class="img-responsive" style="width: 100%;" alt="">
+                <div><h1>(Nome do Produto)</h1></div>
+                <div><h4>(Preço do Produto)</h4></div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
