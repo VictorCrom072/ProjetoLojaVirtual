@@ -12,8 +12,8 @@
     </style>
 </head>
 <body>
-    <?php include 'nav.php' ?>
-    <?php include 'cabecalho.html' ?>
+    <?php include 'nav.php'; ?>
+    <?php include 'cabecalho.html'; ?>
     <div class="container-fluid">
         <div class="row">
             <div class="col-sm-3">
@@ -38,5 +38,6 @@
             </div>
         </div>
     </div>
+    <?php include 'rodape.html'; ?>
 </body>
 </html>
