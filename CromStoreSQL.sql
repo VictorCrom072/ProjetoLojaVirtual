@@ -241,3 +241,6 @@ inner join tbl_categoria
 on tbl_livro.cd_categoria = tbl_categoria.cd_categoria;
     
 select * from vw_livro;
+
+CREATE USER 'Crom'@'localhost' IDENTIFIED WITH mysql_native_password BY '12345678';
+GRANT ALL PRIVILEGES ON db_lojavirtual.* TO 'Crom'@'localhost' WITH GRANT OPTION;
