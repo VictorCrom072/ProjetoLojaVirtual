@@ -70,15 +70,13 @@ insert into tbl_livro values
  mais utilizados para você melhorar ainda mais seus projetos. Com essas novas técnicas, você incrementará seu arsenal
  para resolver problemas comuns do seu dia a dia como programador front-end e estará pronto para explorar áreas mais
  profundas do sertão da programação.</p>', 'javascriptcangaceiro','N'),
- 
- (Default,'978-85-5519-079-7','3','Comece com o principal banco de dados open source do mercado','5','165','59.90','40',
+(Default,'978-85-5519-079-7','3','Comece com o principal banco de dados open source do mercado','5','165','59.90','40',
 '<p>O MySQL é praticamente onipresente nos projetos de software atuais. Boa parte deles o utiliza como banco de dados
  para armazenar as informações da sua aplicação, por conta da sua facilidade de instalação e configuração.</p>
  <p>Neste livro, Vinícius Carvalho introduz o leitor no mundo do banco de dados MySQL, ensinando os principais comandos
  DML e DDL, e ferramentas gráficas. Você vai aprender a trabalhar com procedures, manipular triggers, criar backups e
  vários outros recursos que fazem a diferença no dia a dia.</p>
  <p>Versão do MySQL: 8.0.</p>', 'bancomysql','N'),
- 
 (Default,'978-85-66250-32-9','1','Edição e organização de fotos com Adobe Lightroom','3','199','69.00','23',
 '<p>Uma imagem vale por mil palavras. Uma foto pode deixar alguém sem palavras. Contudo, como encontrar alguma foto
  específica no meio de outras milhares? E como editar, corrigir e mostrá-las a amigos ou clientes de maneira eficiente
@@ -89,8 +87,7 @@ insert into tbl_livro values
  <p>Para estas e outras coisas o Adobe Lightroom é a ferramenta perfeita. Com uma interface otimizada para fotógrafos
  de todos os níveis, pensada desde o início em produtividade e qualidade, este programa para Windows e Mac irá lhe
  surpreender.</p>', 'adobe-lightroom','N'),
- 
- (Default,'978-85-66250-33-6','1','Conhecendo o Adobe Photoshop CS6','2','380','59.00','80',
+(Default,'978-85-66250-33-6','1','Conhecendo o Adobe Photoshop CS6','2','380','59.00','80',
 '<p>Sempre quis entender como fotos que a princípio não tem nada de mais, depois de alguns retoques, ganham outra vida?
  Com esse livro, além de entender como funciona os segredos da manipulação de imagens, você vai aprender a aplicá-los 
  na prática.</p>
@@ -110,8 +107,7 @@ e como harmonizar cores, balancear elementos e tipografia. O Bootstrap é, resum
  página do zero, a partir de um wireframe. Você verá seus principais componentes, como menu responsivo, grids, painéis e botões,
  além de aprender a customizar seu tema padrão e algumas boas práticas de HTML5, sempre levando em consideração a semântica do
  código..</p>','bootstrap','S'),
- 
- (Default,'978-85-66250-40-4','2','DevOps na prática - entrega de software confiável e automatizada','10','284','69.90','0',
+(Default,'978-85-66250-40-4','2','DevOps na prática - entrega de software confiável e automatizada','10','284','69.90','0',
 '<p>Entregar software em produção é um processo que tem se tornado cada vez mais difícil no departamento de TI de diversas
  empresas. Ciclos longos de teste e divisões entre as equipes de desenvolvimento e de operações são alguns dos fatores que
  contribuem para este problema. Mesmo equipes ágeis que produzem software entregável ao final de cada iteração sofrem para
@@ -124,7 +120,6 @@ e como harmonizar cores, balancear elementos e tipografia. O Bootstrap é, resum
  como automatizar o build e deploy de uma aplicação web, como automatizar o gerenciamento da infraestrutura, como
  monitorar o sistema em produção, como evoluir a arquitetura e migrá-la para a nuvem, além de conhecer diversas
  ferramentas que você pode aplicar no seu trabalho.</p>','devops','N'),
- 
 (Default,'978-85-5519-288-3','5','Ionic Framework
 Construa aplicativos para todas as plataformas mobile','14','162','49.90','20',
 '<p>Com a crescente difusão dos SmartPhones, surgiu uma grande quantidade de Sistemas Operacionais, o que por
@@ -141,8 +136,7 @@ Construa aplicativos para todas as plataformas mobile','14','162','49.90','20',
  preparação do ambiente de desenvolvimento, passando pelos comandos básicos até chegar a aspectos avançados, utilizando
  Angular 1. Por meio da criação de um aplicativo de exemplo, que será um Cardápio Móvel, você vai evoluir seu desenvolvimento
  conforme aprende a teoria sobre Ionic e insere novos componentes na prática.</p>','ionic','N'),
- 
- (Default,'978-85-5519-076-6','4','CSS Eficiente
+(Default,'978-85-5519-076-6','4','CSS Eficiente
 Técnicas e ferramentas que fazem a diferença nos estilos','2','144','59.90','25',
 '<p>Quando aprendemos a trabalhar com CSS, frequentemente nos pegamos perdidos em detalhes fundamentais que não nos são
  explicados. Por vezes, alguns desses detalhes passam despercebidos até pelo desenvolvedor front-end mais experiente.
@@ -164,7 +158,6 @@ Técnicas e tecnologias para extração de valor dos dados','8','245','69.90','0
  <p>Neste livro, Rosangela Marquesone apresenta as tecnologias e soluções de Big Data, em uma abordagem conceitual que detalha
  as características e capacidades de cada uma delas. Você verá as principais fases de um projeto de Big Data, desde a captura,
  o armazenamento, o processamento, análise, até a visualização de dados.</p>','bigdata','S'),
- 
  (Default,'978-85-66250-53-4','2','Controlando versões com Git e GitHub','1','220','69.90','28',
 '<p>esenvolver software não é fácil. Há sempre demandas de novas funcionalidades a serem desenvolvidas e de alterações nas
  funcionalidades já existentes. Por isso, uma das preocupações nos projetos é manter um histórico de evolução do código fonte,
@@ -179,7 +172,6 @@ Técnicas e tecnologias para extração de valor dos dados','8','245','69.90','0
  Serão ensinados comandos para criação de repositórios, trabalho local e remoto, branches, tags, conflitos, dentre outros
  assuntos. Além disso, será mostrado também como criar uma conta no GitHub e utilizá-la para hospedar seus repositórios.</p>',
  'git','S'),
- 
  (Default,'978-85-66250-48-0','1','Introdução e boas práticas em UX Design','4','263','79.90','50',
 '<p>Cada vez mais o desenvolvimento do front-end de sites e sistemas tem papel preponderante em como o seu site converte,
  retém e agrada os usuários. Porém, além de saber como implementar uma tela, é importante saber também o que fazer nela.
@@ -189,7 +181,6 @@ Técnicas e tecnologias para extração de valor dos dados','8','245','69.90','0
  para ele.Neste livro, Fabricio Teixeira mostra com exemplos práticos e reais de sucesso e insucesso de diferentes
  sites quais são as boas práticas e os pilares para conseguir construir um de uso agradável. Confira o
  sumário.</p>','ux','N'),
- 
  (Default,'978-85-94188-78-6','2','Guia prático do servidor Linux
 Administração Linux para iniciantes','11','169','59.90','0',
 '<p>O Linux é o sistema operacional mais seguro que você poderá ter em mãos. Empresas como a Dell, Asus e Acer produzem
@@ -217,7 +208,6 @@ Como automatizar a distribuição de apps','18','190','69.90','25',
  repositório de código remoto, uma bateria de testes automatizados seja executada, acompanhada por uma análise de cobertura de
  código-fonte, verificações de regras de negócios e, por fim, chegando até a etapa de distribuição automatizada do app para o
  Google Play.</p>','entregaandroid','S'),
- 
  (Default,'978-85-5519-198-5','2','Windows Server 2012 R2
 Estudo dirigido para MCSA prova 70-410','13','354','79.90','40',
 '<p>A nova certificação MCSA (Microsoft Certified Solutions Associate) é um título atribuído a profissionais da área de TI que
@@ -230,3 +220,24 @@ Estudo dirigido para MCSA prova 70-410','13','354','79.90','40',
 select * from tbl_livro;
 select * from tbl_autor;
 select * from tbl_categoria;
+
+create view vw_livro
+as select
+	tbl_livro.cd_livro,
+    tbl_livro.no_isbn,
+    tbl_categoria.ds_categoria,
+    tbl_livro.nm_livro,
+    tbl_autor.nm_autor,
+    tbl_livro.no_pag,
+    tbl_livro.vl_preco,
+    tbl_livro.qt_estoque,
+    tbl_livro.ds_resumo_obra,
+    tbl_livro.ds_capa,
+    tbl_livro.sg_lancamento
+from tbl_livro
+inner join tbl_autor
+on tbl_livro.cd_autor = tbl_autor.cd_autor
+inner join tbl_categoria
+on tbl_livro.cd_categoria = tbl_categoria.cd_categoria;
+    
+select * from vw_livro;
