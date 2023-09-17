@@ -12,32 +12,23 @@
     </style>
 </head>
 <body>
-    <?php include 'nav.php'; ?>
-    <?php include 'cabecalho.html'; ?>
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-sm-3">
-                <img src="https://placehold.it/450x320" class="img-responsive" style="width: 100%;" alt="">
-                <div><h1>(Nome do Produto)</h1></div>
-                <div><h4>(Preço do Produto)</h4></div>
-            </div>
-            <div class="col-sm-3">
-                <img src="https://placehold.it/450x320" class="img-responsive" style="width: 100%;" alt="">
-                <div><h1>(Nome do Produto)</h1></div>
-                <div><h4>(Preço do Produto)</h4></div>
-            </div>
-            <div class="col-sm-3">
-                <img src="https://placehold.it/450x320" class="img-responsive" style="width: 100%;" alt="">
-                <div><h1>(Nome do Produto)</h1></div>
-                <div><h4>(Preço do Produto)</h4></div>
-            </div>
-            <div class="col-sm-3">
-                <img src="https://placehold.it/450x320" class="img-responsive" style="width: 100%;" alt="">
-                <div><h1>(Nome do Produto)</h1></div>
-                <div><h4>(Preço do Produto)</h4></div>
-            </div>
+    <?php
+        include 'nav.php';
+        include 'cabecalho.html';
+        include 'conexao.php';
+        $consulta = $cn->query('select * from vw_livro');
+    ?>
+    <div class='container-fluid'>
+        <div class='row'>";       
+            <?php while($exibe = $consulta->fetch(PDO::FETCH_ASSOC)) { ?>
+                <div class='col-sm-3'>
+                    <img src="img/<?php echo $exibe['ds_capa'] ?>.jpg" class='img-responsive' style='width: 100%;'>
+                    <div><h2><?php echo $exibe['nm_livro']?></h2></div>
+                    <div><h4>R$<?php echo $exibe['vl_preco']?></h4></div>
+                </div>";
+            <?php } ?>
         </div>
-    </div>
+    </div>;
     <?php include 'rodape.html'; ?>
 </body>
 </html>
