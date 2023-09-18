@@ -23,7 +23,7 @@
             <?php while($exibe = $consulta->fetch(PDO::FETCH_ASSOC)) { ?>
                 <div class='col-sm-3'>
                     <img src="img/<?php echo $exibe['ds_capa'] ?>.jpg" class='img-responsive' style='width: 100%;'>
-                    <div><h2><?php echo $exibe['nm_livro']?></h2></div>
+                    <div><h3><b><?php echo mb_strimwidth($exibe['nm_livro'], 0 , 30, "...")?></b></h3></div>
                     <div><h4>R$<?php echo number_format($exibe['vl_preco'], 2, ",", ".")?></h4></div>
                 </div>";
             <?php } ?>
