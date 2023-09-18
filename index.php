@@ -16,19 +16,28 @@
         include 'nav.php';
         include 'cabecalho.html';
         include 'conexao.php';
-        $consulta = $cn->query('select ds_capa, nm_livro, vl_preco from vw_livro');
+        $consulta = $cn->query('select ds_capa, nm_livro, vl_preco, qt_estoque from vw_livro');
     ?>
     <div class='container-fluid'>
-        <div class='row'>";       
+        <div class='row'>      
             <?php while($exibe = $consulta->fetch(PDO::FETCH_ASSOC)) { ?>
                 <div class='col-sm-3'>
                     <img src="img/<?php echo $exibe['ds_capa'] ?>.jpg" class='img-responsive' style='width: 100%;'>
                     <div><h3><b><?php echo mb_strimwidth($exibe['nm_livro'], 0 , 30, "...")?></b></h3></div>
                     <div><h4>R$<?php echo number_format($exibe['vl_preco'], 2, ",", ".")?></h4></div>
-                </div>";
+
+                    <div class="text-center" style="margin-bottom: 5px;">
+                        <button class=" btn btn-lg btn-block btn-info">
+                            <span class="glyphicon glyphicon-info-sign"> Detalhes</span>
+                        </button>
+                        <button class=" btn btn-lg btn-block btn-success">
+                            <span class="glyphicon glyphicon-usd"> Comprar</span>
+                        </button>
+                    </div>
+                </div>
             <?php } ?>
         </div>
-    </div>;
+    </div>
     <?php include 'rodape.html'; ?>
 </body>
 </html>
