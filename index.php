@@ -16,7 +16,7 @@
         include 'nav.php';
         include 'cabecalho.html';
         include 'conexao.php';
-        $consulta = $cn->query('select * from vw_livro');
+        $consulta = $cn->query('select ds_capa, nm_livro, vl_preco from vw_livro');
     ?>
     <div class='container-fluid'>
         <div class='row'>";       
