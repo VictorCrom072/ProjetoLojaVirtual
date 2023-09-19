@@ -19,11 +19,11 @@
         <li class="dropdown">
         <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Categorias<span class="caret"></span></a>
         <ul class="dropdown-menu">
-            <li><a href="#">Design</a></li>
-            <li><a href="#">Infraestrutura</a></li>
-            <li><a href="#">Dados</a></li>
-            <li><a href="#">Front-end</a></li>
-            <li><a href="#">Mobile</a></li>
+            <li><a href="categ.php?cat=Design">Design</a></li>
+            <li><a href="categ.php?cat=Infraestrutura">Infraestrutura</a></li>
+            <li><a href="categ.php?cat=Dados">Dados</a></li>
+            <li><a href="categ.php?cat=Front-end">Front-end</a></li>
+            <li><a href="categ.php?cat=Mobile">Mobile</a></li>
         </ul>
         </li>
     </ul>

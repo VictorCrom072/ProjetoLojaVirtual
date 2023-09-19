@@ -16,7 +16,8 @@
         include 'nav.php';
         include 'cabecalho.html';
         include 'conexao.php';
-        $consulta = $cn->query('select ds_capa, nm_livro, vl_preco, qt_estoque from vw_livro');
+        $cat = $_GET['cat'];
+        $consulta = $cn->query("select ds_capa, nm_livro, vl_preco, qt_estoque from vw_livro where ds_categoria = '$cat'");
     ?>
     <div class='container-fluid'>
         <div class='row'>      
