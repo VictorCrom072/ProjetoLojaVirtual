@@ -244,3 +244,28 @@ select * from vw_livro;
 
 CREATE USER 'Crom'@'localhost' IDENTIFIED WITH mysql_native_password BY '12345678';
 GRANT ALL PRIVILEGES ON db_lojavirtual.* TO 'Crom'@'localhost' WITH GRANT OPTION;
+
+create table tbl_usuario(
+	id_usu int primary key auto_increment,
+    nm_usu varchar(80) not null unique,
+    ds_email varchar(80) not null,
+    ds_senha varchar(10) not null,
+    ds_status boolean not null,
+    ds_endereco varchar(150),
+    ds_cidade varchar(30),
+    no_cep char(9)
+);
+
+insert into tbl_usuario values
+(default, 'Crom', 'cromatico@gmail.com', 'crom_072',
+1, 'Rua Pres. Félix Paiva, 466', 'São Paulo', '05265-050');
+
+insert into tbl_usuario values
+(default, 'Pamby', 'Teixeira@gmail.com', 'Aita',
+0, 'Rua dos Narcóticos, 666', 'Rio de Janeiro', '05785-050');
+
+insert into tbl_usuario values
+(default, 'Kallex', 'Raimundinho@gmail.com', 'cebola',
+0, 'Rua da Paz, 157', 'São Paulo', '05159-050');
+
+select * from tbl_usuario;
